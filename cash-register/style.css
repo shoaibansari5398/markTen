@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #caf0f8;
+  padding: 10px;
+  margin-top: 8rem;
+  border-radius: 10px;
+}
+h1,
+p {
+  text-align: center;
+  margin-bottom: 15px;
+  /* padding-bottom: 10px; */
+}
+.body {
+  justify-content: center;
+  display: flex;
+  background-image: linear-gradient(to right, #023e8a, #48cae4);
+}
+label {
+  margin-bottom: 3px;
+  text-align: center;
+}
+#cash-label {
+  margin-top: 8px;
+}
+#check-button {
+  margin: 10px 0;
+  /* background-color: ; */
+}
