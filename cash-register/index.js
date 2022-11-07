@@ -14,7 +14,7 @@ checkButton.addEventListener("click", function calculateAmount() {
       calculateNotes(amountToReturned);
     } 
     else if(cashGiven.value === billAmount.value){
-      showMessage("No Money Left");;
+      showMessage("No Money Left");
     }
     else {
       showMessage("The cash provided should atleast be equal to bill amount");
