@@ -12,7 +12,11 @@ checkButton.addEventListener("click", function calculateAmount() {
     if (cashGiven.value > billAmount.value) {
       const amountToReturned = cashGiven.value - billAmount.value;
       calculateNotes(amountToReturned);
-    } else {
+    } 
+    else if(cashGiven.value === billAmount.value){
+      showMessage("No Money Left");;
+    }
+    else {
       showMessage("The cash provided should atleast be equal to bill amount");
     }
   } else {
